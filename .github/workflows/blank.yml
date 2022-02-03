@@ -1,0 +1,10 @@
+
+# This is a basic workflow to showcase the use of Reusable Workflows call
+
+name: Reusable Workflow user 3
+
+on:
+  workflow_dispatch:
+jobs:
+  call-workflow-1-in-local-repo:
+    uses:shafivullashaik/cic-cd-git-hub-actions/.github/workflows/blank.yml
